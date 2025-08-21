@@ -1,0 +1,10 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Path Stroke="Black" Fill="Silver" Data="M36,40 a10,10,180,1,0,20,0 a10,10,180,1,0,-20,0 m2,0 a8,8,180,1,0,16,0 a8,8,180,1,0,-16,0"/>
+    <Path Stroke="Black" Fill="LightGray" Data="M64,34 a4,4,90,1,0,-4,0 a4,4,90,1,0,0,4 a4,4,90,1,0,4,0 h12 v3 h-2 v2 h4 v-5 h2 v5 h4v-2h-2v-3 h2v-4z M56,35 a1,1,180,1,0,1,0 a1,1,180,0,1,-1,0 z"></Path>
+    <Path Stroke="Black" Fill="Gold" RenderTransform="{RotateTransform Angle=60,CenterX=60,CenterY=54}" Data="M60,54 a4,4,90,1,0,-4,0 a4,4,90,1,0,0,4 a4,4,90,1,0,4,0 h12 v3 h-2 v2 h4 v-5 h2 v5 h4v-2h-2v-3 h2v-4z M52,55 a1,1,180,1,0,1,0 a1,1,180,0,1,-1,0 z"></Path>
+    <Path Stroke="Black" Fill="DarkGray" RenderTransform="{RotateTransform Angle=105,CenterX=40,CenterY=54}"  Data="M40,54 a4,4,90,1,0,-4,0 a4,4,90,1,0,0,4 a4,4,90,1,0,4,0 h12 v3 h-2 v2 h4 v-5 h2 v5 h4v-2h-2v-3 h2v-4z M32,55 a1,1,180,1,0,1,0 a1,1,180,0,1,-1,0 z"></Path>
+  </Canvas>
+</Page>

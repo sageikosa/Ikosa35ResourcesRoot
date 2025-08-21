@@ -1,0 +1,9 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">  
+    <Path Stroke="Black" Data="M30,16 v64 a18,6,0,0,0,36,0 v-64 a18,6,0,0,1,-36,0" StrokeLineJoin="Round" Fill="Silver"></Path>
+    <Path Stroke="Black" Data="M31,40 v8 a17,10,0,0,0,34,0 v-8 a17,10,0,0,1,-34,0" Fill="LightGray"/>
+    <Path Stroke="Black" Data="M30,16 v64 a18,6,0,0,0,36,0 v-64 a18,6,0,0,1,-36,0 M36,27 v44 a12,4,0,0,0,24,0 v-44 a12,4,0,0,1,-24,0" StrokeLineJoin="Round" Fill="Gray"></Path>
+  </Canvas>
+</Page>

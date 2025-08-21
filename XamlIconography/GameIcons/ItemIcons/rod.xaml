@@ -1,0 +1,9 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+      <Path Stroke="Black" StrokeThickness="1" Fill="Gold" Data="M45,96 h6 l4,-72 h-14 z"></Path>
+      <Ellipse Stroke="Black" StrokeThickness="1" Fill="LightCyan" Canvas.Left="38" Canvas.Top="0" Width="20" Height="20" />
+      <Path Stroke="Black" StrokeThickness="1" Fill="LightGoldenrodYellow" Data="M40,24 h16 l4,-8 h-24 z"></Path>
+  </Canvas>
+</Page>

@@ -1,0 +1,292 @@
+<Model3DGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <Model3DGroup.Children>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="2.5,-2.5,-2.5 2.5,2.5,-2.5 2.5,2.5,2.5 2.5,-2.5,2.5" Normals="1,0,0 1,0,0 1,0,0 1,0,0" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:LeftSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="2.334,-2.5,-2.5 2.334,2.5,-2.5 2.334,2.5,2.5 2.334,-2.5,2.5" Normals="-1,0,0 -1,0,0 -1,0,0 -1,0,0" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:SenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="2.334,-2.5,-2.5 2.5,-2.5,-2.5 2.5,-2.5,2.5 2.334,-2.5,2.5" Normals="0,-1,0 0,-1,0 0,-1,0 0,-1,0" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:FrontSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="2.334,2.5,-2.5 2.5,2.5,-2.5 2.5,2.5,2.5 2.334,2.5,2.5" Normals="0,1,0 0,1,0 0,1,0 0,1,0" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:BackSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.334,-2.5,-2.5 -2.334,2.5,-2.5 -2.334,2.5,2.5 -2.334,-2.5,2.5" Normals="1,0,0 1,0,0 1,0,0 1,0,0" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:SenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,-2.5 -2.5,2.5,-2.5 -2.5,2.5,2.5 -2.5,-2.5,2.5" Normals="-1,0,0 -1,0,0 -1,0,0 -1,0,0" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:RightSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,-2.5 -2.334,-2.5,-2.5 -2.334,-2.5,2.5 -2.5,-2.5,2.5" Normals="0,-1,0 0,-1,0 0,-1,0 0,-1,0" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:FrontSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,2.5,-2.5 -2.334,2.5,-2.5 -2.334,2.5,2.5 -2.5,2.5,2.5" Normals="0,1,0 0,1,0 0,1,0 0,1,0" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:BackSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,2.5 2.5,-2.5,2.5 2.5,2.5,2.5 -2.5,2.5,2.5" Normals="0,0,1 0,0,1 0,0,1 0,0,1" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:TopSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,2.334 2.5,-2.5,2.334 2.5,2.5,2.334 -2.5,2.5,2.334" Normals="0,0,-1 0,0,-1 0,0,-1 0,0,-1" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:SenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,2.334 2.5,-2.5,2.334 2.5,-2.5,2.5 -2.5,-2.5,2.5" Normals="0,-1,0 0,-1,0 0,-1,0 0,-1,0" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:FrontSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,2.5,2.334 2.5,2.5,2.334 2.5,2.5,2.5 -2.5,2.5,2.5" Normals="0,1,0 0,1,0 0,1,0 0,1,0" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:BackSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,-2.334 2.5,-2.5,-2.334 2.5,2.5,-2.334 -2.5,2.5,-2.334" Normals="0,0,1 0,0,1 0,0,1 0,0,1" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:SenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,-2.5 2.5,-2.5,-2.5 2.5,2.5,-2.5 -2.5,2.5,-2.5" Normals="0,0,-1 0,0,-1 0,0,-1 0,0,-1" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:BottomSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,-2.5 2.5,-2.5,-2.5 2.5,-2.5,-2.334 -2.5,-2.5,-2.334" Normals="0,-1,0 0,-1,0 0,-1,0 0,-1,0" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:FrontSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,2.5,-2.5 2.5,2.5,-2.5 2.5,2.5,-2.334 -2.5,2.5,-2.334" Normals="0,1,0 0,1,0 0,1,0 0,1,0" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:BackSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,-0.999333333333333 2.5,-2.5,-0.999333333333333 2.5,-2.5,-0.833333333333333 -2.5,-2.5,-0.833333333333333" Normals="0,-1,0 0,-1,0 0,-1,0 0,-1,0" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:FrontSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,2.5,-0.999333333333333 2.5,2.5,-0.999333333333333 2.5,2.5,-0.833333333333333 -2.5,2.5,-0.833333333333333" Normals="0,1,0 0,1,0 0,1,0 0,1,0" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:BackSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,-0.833333333333333 2.5,-2.5,-0.833333333333333 2.5,2.5,-0.833333333333333 -2.5,2.5,-0.833333333333333" Normals="0,0,1 0,0,1 0,0,1 0,0,1" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF696969" VisualEffect="{uzi:SenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,-0.958333333333333 2.5,-2.5,-0.958333333333333 2.5,2.5,-0.958333333333333 -2.5,2.5,-0.958333333333333" Normals="0,0,-1 0,0,-1 0,0,-1 0,0,-1" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF696969" VisualEffect="{uzi:SenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,0.667333333333333 2.5,-2.5,0.667333333333333 2.5,-2.5,0.833333333333333 -2.5,-2.5,0.833333333333333" Normals="0,-1,0 0,-1,0 0,-1,0 0,-1,0" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:FrontSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,2.5,0.667333333333333 2.5,2.5,0.667333333333333 2.5,2.5,0.833333333333333 -2.5,2.5,0.833333333333333" Normals="0,1,0 0,1,0 0,1,0 0,1,0" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF808080" VisualEffect="{uzi:BackSenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,0.833333333333333 2.5,-2.5,0.833333333333333 2.5,2.5,0.833333333333333 -2.5,2.5,0.833333333333333" Normals="0,0,1 0,0,1 0,0,1 0,0,1" TriangleIndices="0 1 2 0 2 3" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF696969" VisualEffect="{uzi:SenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="-2.5,-2.5,0.708333333333333 2.5,-2.5,0.708333333333333 2.5,2.5,0.708333333333333 -2.5,2.5,0.708333333333333" Normals="0,0,-1 0,0,-1 0,0,-1 0,0,-1" TriangleIndices="0 2 1 0 3 2" />
+            </GeometryModel3D.Geometry>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial>
+                    <DiffuseMaterial.Brush>
+                        <uzi:IkosaEffectColorBrush SolidColor="#FF696969" VisualEffect="{uzi:SenseEffectExtension}"/>
+                    </DiffuseMaterial.Brush>
+                </DiffuseMaterial>
+            </GeometryModel3D.Material>
+        </GeometryModel3D>
+    </Model3DGroup.Children>
+</Model3DGroup>

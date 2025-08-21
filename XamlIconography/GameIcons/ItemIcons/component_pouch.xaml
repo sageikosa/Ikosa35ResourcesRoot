@@ -1,0 +1,13 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Path Stroke="Black" StrokeThickness="2" Fill="Brown" Data="M44,36 a12,6,105,0,0,-8,30 a24,32,180,0,0,24,0 a12,6,75,0,0,-8,-30 l8,-8 a24,48,180,0,0,-22,0 z"/>
+    <Polyline Stroke="DarkOrange" StrokeThickness="2" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"
+              Points="54,48 48,39 42,35 54,35 48,39 42,48"/>
+    <Polyline Stroke="DarkGreen" StrokeThickness="4" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"
+              Points="45,39 51,39"/>
+    <Ellipse Fill="DarkBlue" Canvas.Left="53" Canvas.Top="48" Width="4" Height="4" ></Ellipse>
+    <Ellipse Fill="DarkBlue" Canvas.Left="40" Canvas.Top="48" Width="4" Height="4" ></Ellipse>
+  </Canvas>
+</Page>

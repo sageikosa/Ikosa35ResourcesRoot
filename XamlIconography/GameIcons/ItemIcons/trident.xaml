@@ -1,0 +1,11 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">  
+    <Rectangle Stroke="Black" StrokeThickness="0.5" Fill="Brown" Width="3" Canvas.Left="46.5"
+               Height="56" Canvas.Top="32" RadiusX="1" RadiusY="2"/>
+    <Path Stroke="Black" StrokeThickness="0.5" Fill="LightGray"
+          Data="M40,16 a9,12,0,1,0,16,0 a3,4,0,0,1,0,-4 a4,4,0,0,0,-1,4 a8,10,0,1,1,-14,0 a4,4,0,0,0,-1,-4 a3,4,0,0,1,0,4 z"/>
+    <Path Stroke="Black" StrokeThickness="0.5" Fill="Silver" Data="M46.5,40 v-10 l1.5,-24 l1.5,24 v10 z"/>
+  </Canvas>
+</Page>

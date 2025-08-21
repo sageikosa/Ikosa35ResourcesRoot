@@ -1,0 +1,9 @@
+<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<uv:ResourceContent xmlns:uv="clr-namespace:Uzi.Visualize;assembly=Uzi.Visualize" ResourceDictionary="{DynamicResource dictStyles}">
+		<Canvas Background="{x:Null}" Tag="R" Width="96" Height="96" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Rectangle RadiusX="1" RadiusY="2" Fill="{uv:ColorBrushVal Key=Grip,Color=#FFA52A2A}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" Width="4" Height="18" Canvas.Left="46" Canvas.Top="58" />
+			<Path Data="M46,60L47,12 49,12 50,60z" Fill="{uv:ColorBrushVal Key=Head,Color=#FFC0C0C0}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeLineJoin="Round" />
+			<Path Data="M40,49A9,8,0,1,0,56,49A8,9,0,1,1,40,49z" Fill="{uv:ColorBrushVal Key=Guard,Color=#FFD3D3D3}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeLineJoin="Bevel" />
+		</Canvas>
+	</uv:ResourceContent>
+</DataTemplate>

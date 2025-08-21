@@ -1,0 +1,9 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Width="96" Height="96" Background="Magenta">
+    <Path Stroke="Black" StrokeThickness="0.5" Data="M46.5,27 l-1,-3 l2.5,-12 l2.5,12 l-1,3 z" Fill="Silver"></Path>
+    <Line X1="48" X2="48" Y1="27" Y2="18" Stroke="Black" StrokeThickness="0.5"/>
+    <Rectangle Width="3" StrokeThickness="0.5" Height="44" Fill="DarkOrange" Stroke="Black" Canvas.Left="46.5" Canvas.Top="27"/>
+  </Canvas>
+</Page>

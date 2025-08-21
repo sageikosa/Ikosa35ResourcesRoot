@@ -1,0 +1,18 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">  
+    <Path Stroke="Black" Data="M38,16 a10,3,0,0,1,20,0 a2,20,7,0,1,-5,44 l-1,20 a3,3,0,0,1,-8,0 l-1,-20 a2,20,-7,0,1,-5,-44 z">
+        <Path.Fill>
+            <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+                <GradientStop Offset="0" Color="Chocolate"/>
+                <GradientStop Offset="0.3" Color="Chocolate"/>
+                <GradientStop Offset="0.4" Color="Brown"/>
+                <GradientStop Offset="1" Color="Brown"/>
+            </LinearGradientBrush>
+        </Path.Fill>
+    </Path>
+    <Path Stroke="Black" Fill="Silver" Data="M36,24 a8,2,0,0,1,24,0 l-1,8 a7,2,0,0,0,-22,0 z" StrokeLineJoin="Round" />
+    <Path Stroke="Black" Fill="Silver" Data="M38,40 a8,2,0,0,1,20,0 l-1,8 a7,2,0,0,0,-18,0 z" StrokeLineJoin="Round" />
+  </Canvas>
+</Page>

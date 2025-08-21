@@ -1,0 +1,30 @@
+<Model3DGroup xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <Model3DGroup.Children>
+        <GeometryModel3D>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial Brush="Navy"></DiffuseMaterial>
+            </GeometryModel3D.Material>
+            <GeometryModel3D.BackMaterial>
+                <DiffuseMaterial Brush="Green"></DiffuseMaterial>
+            </GeometryModel3D.BackMaterial>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="0,-0.062,3.5 -1.75,-0.062,0 1.75,-0.062,0 1.75,-0.062,7.5 -1.75,-0.062, 7.5" 
+                                Normals="0,-1,0 0,-1,0 0,-1,0 0,-1,0 0,-1,0" 
+                                TriangleIndices="0,1,2 0,2,3 0,3,4 0,4,1"></MeshGeometry3D>
+            </GeometryModel3D.Geometry>
+        </GeometryModel3D>
+        <GeometryModel3D>
+            <GeometryModel3D.Material>
+                <DiffuseMaterial Brush="Blue"></DiffuseMaterial>
+            </GeometryModel3D.Material>
+            <GeometryModel3D.BackMaterial>
+                <DiffuseMaterial Brush="Orange"></DiffuseMaterial>
+            </GeometryModel3D.BackMaterial>
+            <GeometryModel3D.Geometry>
+                <MeshGeometry3D Positions="0,0.062,3.5 -1.75,0.062,0 1.75,0.062,0 1.75,0.062,7.5 -1.75,0.062, 7.5" 
+                                Normals="0,1,0 0,1,0 0,1,0 0,1,0 0,1,0" 
+                                TriangleIndices="0,1,4 0,4,3 0,3,2 0,2,1"></MeshGeometry3D>
+            </GeometryModel3D.Geometry>
+        </GeometryModel3D>
+    </Model3DGroup.Children>
+</Model3DGroup>

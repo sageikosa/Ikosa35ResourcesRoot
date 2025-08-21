@@ -1,0 +1,8 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">  
+    <Path Stroke="Black" Fill="Goldenrod" Data="M32,28 l-12,64 a72,32,0,0,0,56,0 l-12,-64 a32,48,0,0,0,-32,0"/>
+    <Path Stroke="Black" Fill="#C0000000" Data="M46,28 l-4,66 a72,32,0,0,0,12,0 l-4,-66 l6,-3 a32,48,0,0,0,-16,0 z"/>
+  </Canvas>
+</Page>

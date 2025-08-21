@@ -1,0 +1,13 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M32,25h48l-12,12h-48z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M80,25v46l-12,12v-46z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M20,37h48v46h-48z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Path Stroke="Black" Fill="Chocolate" StrokeThickness="1" Data="M24,41h40v18h-40z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Ellipse Stroke="Black" Fill="Gold" StrokeThickness="1" Canvas.Left="42" Canvas.Top="46" Width="6" Height="6"/>
+    <Path Stroke="Black" Fill="Chocolate" StrokeThickness="1" Data="M24,59h40v18h-40z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Ellipse Stroke="Black" Fill="Gold" StrokeThickness="1" Canvas.Left="42" Canvas.Top="64" Width="6" Height="6"/>
+  </Canvas>
+</Page>

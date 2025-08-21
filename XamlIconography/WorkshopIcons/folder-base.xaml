@@ -1,0 +1,8 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Rectangle Width="32" Height="10" Stroke="Brown" Canvas.Left="6" Canvas.Top="16" Fill="LightGoldenrodYellow" StrokeLineJoin="Round" ></Rectangle>
+    <Rectangle Width="88" Height="64" Stroke="Brown" Canvas.Left="4" Canvas.Top="24" Fill="Yellow" StrokeLineJoin="Round" ></Rectangle>
+  </Canvas>
+</Page>

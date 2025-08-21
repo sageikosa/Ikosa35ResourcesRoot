@@ -1,0 +1,19 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Canvas.Resources>
+      <LinearGradientBrush x:Key="gbGlove" StartPoint="0.5,0" EndPoint="0.5,1">
+        <GradientStop Offset="0" Color="Brown"/>
+        <GradientStop Offset="0.75" Color="DarkOrange"/>
+        <GradientStop Offset="1" Color="Orange"/>
+      </LinearGradientBrush>
+    </Canvas.Resources>
+    <Grid Height="96" Width="96">
+    <Path Stroke="Black" Fill="{StaticResource gbGlove}" RenderTransform="{RotateTransform Angle=-45,CenterX=24,CenterY=24}" StrokeLineJoin="Round"
+      Data="M 24,40 v 44 a 8,32,180,0,0,6,0 v-12 v16 a 8,32,180,0,0,6,0 v-16 v20 a 8,32,180,0,0,6,0 v-20 v16 a 8,32,180,0,0,6,0 v-30 a 4,24,180,0,1,4,0 v12 a 8,32,180,0,0,5,0 v-16 a 8,8,180,0,0,-8,-8 h-3 v-6 z"/>
+    <Path Stroke="Black" Fill="{StaticResource gbGlove}" StrokeLineJoin="Round"
+      Data="M 16,32 v 44 a 8,32,180,0,0,6,0 v-12 v16 a 8,32,180,0,0,6,0 v-16 v20 a 8,32,180,0,0,6,0 v-20 v16 a 8,32,180,0,0,6,0 v-30 a 4,24,180,0,1,4,0 v12 a 8,32,180,0,0,5,0 v-16 a 8,8,180,0,0,-8,-8 h-3 v-6 z"/>
+    </Grid>
+  </Canvas>
+</Page>

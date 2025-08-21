@@ -1,0 +1,25 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Grid Width="96" Height="96">
+      <Rectangle Stroke="Black" Fill="LightGoldenrodYellow" Width="32" Height="32"></Rectangle>
+      <Rectangle Stroke="Black" Fill="LightGoldenrodYellow" Width="32" Height="32">
+        <Rectangle.LayoutTransform><RotateTransform Angle="45"></RotateTransform></Rectangle.LayoutTransform>
+      </Rectangle>
+      <Ellipse Width="12" Height="12" Stroke="Black" Fill="Red"/>
+    </Grid>
+    <Path Stroke="Black" Fill="Gold">
+      <Path.Data>
+        <CombinedGeometry GeometryCombineMode="Exclude">
+          <CombinedGeometry.Geometry1>
+            <EllipseGeometry RadiusX="14" RadiusY="14" Center="48,48" ></EllipseGeometry>
+          </CombinedGeometry.Geometry1>
+          <CombinedGeometry.Geometry2>
+            <EllipseGeometry RadiusX="8" RadiusY="8" Center="48,48"></EllipseGeometry>
+          </CombinedGeometry.Geometry2>
+        </CombinedGeometry>
+      </Path.Data>
+    </Path>
+  </Canvas>
+</Page>

@@ -1,0 +1,9 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">  
+    <Path Stroke="Black" Fill="Firebrick" Data="M40,28 l-8,-8 a32,64,0,0,1,32,0 l-8,8" />
+    <Path Stroke="Black" Fill="Red" Data="M32,28 l-10,48 a72,32,0,0,0,52,0 l-10,-48 a32,48,0,0,0,-32,0"/>
+    <Path Stroke="Black" Fill="#C0000000" Data="M45,28 l-4,50 a72,32,0,0,0,14,0 l-4,-50 l6,-3 a32,48,0,0,0,-18,0 z"/>
+  </Canvas>
+</Page>

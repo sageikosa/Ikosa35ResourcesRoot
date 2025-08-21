@@ -1,0 +1,40 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">  
+    <Path Stroke="Black" Fill="Chocolate" Data="M16,16h16l40,48v20z"/>
+    <Canvas>
+      <Canvas.RenderTransform>
+        <TransformGroup>
+          <RotateTransform Angle="-138" CenterX="48" CenterY="36"></RotateTransform>
+          <TranslateTransform X="-8"></TranslateTransform>
+        </TransformGroup>
+      </Canvas.RenderTransform>
+      <Rectangle Width="2" StrokeThickness="0.5" Height="14" Fill="Brown" Stroke="Black" Canvas.Left="47" Canvas.Top="32"/>
+      <Path Stroke="Black" StrokeThickness="0.5" Data="M47,32 l1,-4 l1,4 z" Fill="Silver"></Path>
+      <Path Stroke="Black" StrokeThickness="0.5" Data="M47,42 l-0.5,5 h3 l-0.5,-5 z" Fill="DarkOrange"></Path>
+    </Canvas>
+    <Canvas>
+      <Canvas.RenderTransform>
+        <TransformGroup>
+          <RotateTransform Angle="-138" CenterX="48" CenterY="36"></RotateTransform>
+          <TranslateTransform X="7" Y="17"></TranslateTransform>
+        </TransformGroup>
+      </Canvas.RenderTransform>
+      <Rectangle Width="2" StrokeThickness="0.5" Height="14" Fill="Brown" Stroke="Black" Canvas.Left="47" Canvas.Top="32"/>
+      <Path Stroke="Black" StrokeThickness="0.5" Data="M47,32 l1,-4 l1,4 z" Fill="Silver"></Path>
+      <Path Stroke="Black" StrokeThickness="0.5" Data="M47,42 l-0.5,5 h3 l-0.5,-5 z" Fill="DarkOrange"></Path>
+    </Canvas>
+    <Canvas>
+      <Canvas.RenderTransform>
+        <TransformGroup>
+          <RotateTransform Angle="-138" CenterX="48" CenterY="36"></RotateTransform>
+          <TranslateTransform Y="8"></TranslateTransform>
+        </TransformGroup>
+      </Canvas.RenderTransform>
+      <Rectangle Width="2" StrokeThickness="0.5" Height="14" Fill="Brown" Stroke="Black" Canvas.Left="47" Canvas.Top="32"/>
+      <Path Stroke="Black" StrokeThickness="0.5" Data="M47,32 l1,-4 l1,4 z" Fill="Silver"></Path>
+      <Path Stroke="Black" StrokeThickness="0.5" Data="M47,42 l-0.5,5 h3 l-0.5,-5 z" Fill="DarkOrange"></Path>
+    </Canvas>
+  </Canvas>
+</Page>

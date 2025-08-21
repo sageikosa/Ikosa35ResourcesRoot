@@ -1,0 +1,20 @@
+<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<uv:ResourceContent xmlns:uv="clr-namespace:Uzi.Visualize;assembly=Uzi.Visualize" ResourceDictionary="{DynamicResource dictStyles}">
+		<Canvas Background="{x:Null}" Width="96" Height="96" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Path Data="M20,20L68,20 68,88 20,88z" Fill="{uv:ColorBrushVal Key=Front,Color=#FF8B4513}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M32,12L32,80 24,88 24,20z" Fill="{uv:ColorBrushVal Key=Inner,Color=#FF8B4513}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M32,76L72,76 64,84 24,84z" Fill="{uv:ColorBrushVal Key=Shelf,Color=#FFD2691E}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M32,60L72,60 64,68 24,68z" Fill="{uv:ColorBrushVal Key=Shelf,Color=#FFD2691E}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M32,44L72,44 64,52 24,52z" Fill="{uv:ColorBrushVal Key=Shelf,Color=#FFD2691E}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M32,28L72,28 64,36 24,36z" Fill="{uv:ColorBrushVal Key=Shelf,Color=#FFD2691E}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M72,12L72,80 64,88 64,20z" Fill="{uv:ColorBrushVal Key=Front,Color=#FF8B4513}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M76,12L76,80 68,88 68,20z" Fill="{uv:ColorBrushVal Key=Side,Color=#FF8B4513}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M28,12L76,12 68,20 20,20z" Fill="{uv:ColorBrushVal Key=Top,Color=#FF8B4513}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M20,20L68,20 68,24 20,24z" Fill="{uv:ColorBrushVal Key=Base,Color=#FF8B4513}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M24,68L64,68 64,72 24,72z" Fill="{uv:ColorBrushVal Key=ShelfEdge,Color=#FFA52A2A}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M24,52L64,52 64,56 24,56z" Fill="{uv:ColorBrushVal Key=ShelfEdge,Color=#FFA52A2A}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M24,36L64,36 64,40 24,40z" Fill="{uv:ColorBrushVal Key=ShelfEdge,Color=#FFA52A2A}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M20,84L68,84 68,88 20,88z" Fill="{uv:ColorBrushVal Key=Base,Color=#FF8B4513}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+		</Canvas>
+	</uv:ResourceContent>
+</DataTemplate>

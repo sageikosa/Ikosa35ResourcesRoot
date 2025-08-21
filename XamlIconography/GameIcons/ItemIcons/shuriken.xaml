@@ -1,0 +1,10 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Path Stroke="Black" Fill="Silver" Data="M45,45 l3,-8 l3,8 l-3,2 z"/>
+    <Path Stroke="Black" Fill="Silver" Data="M45,51 l3,8 l3,-8 l-3,-2 z"/>
+    <Path Stroke="Black" Fill="Silver" Data="M51,51 l8,-3 l-8,-3 l-2,3 z"/>
+    <Path Stroke="Black" Fill="Silver" Data="M45,51 l-8,-3 l8,-3 l2,3 z"/>
+  </Canvas>
+</Page>

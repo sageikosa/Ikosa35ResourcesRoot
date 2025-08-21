@@ -1,0 +1,10 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Path Stroke="Black" StrokeThickness="2" Fill="Brown" Data="M44,36 a12,6,100,0,0,-8,30 a24,32,180,0,0,24,0 a12,6,80,0,0,-8,-30 z"/>
+    <Path Stroke="Black" StrokeThickness="2" Fill="#FF7B2D10" Data="M42,35 a12,6,105,0,0,-6,18 a24,32,180,0,0,24,0 a12,6,75,0,0,-6,-18 z"/>
+    <Polyline Stroke="Tan" StrokeThickness="4" StrokeLineJoin="Round" StrokeStartLineCap="Round" StrokeEndLineCap="Round"
+              Points="45,51 51,51"/>
+  </Canvas>
+</Page>

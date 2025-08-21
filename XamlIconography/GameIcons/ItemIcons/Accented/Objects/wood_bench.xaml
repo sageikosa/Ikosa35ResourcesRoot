@@ -1,0 +1,22 @@
+<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<uv:ResourceContent xmlns:uv="clr-namespace:Uzi.Visualize;assembly=Uzi.Visualize" ResourceDictionary="{DynamicResource dictStyles}">
+		<Canvas Background="{x:Null}" Width="96" Height="96" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Path Data="M34,29L34,57 30,61 30,37 22,45 22,69 18,73 18,45z" Fill="{uv:ColorBrushVal Key=Side,Color=#FF8B4513}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M26,33L74,33 74,61 70,61 70,37 30,37 30,61 26,61z" Fill="{uv:ColorBrushVal Key=Front,Color=#FFA0522D}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M30,29L78,29 62,45 14,45z" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round">
+				<Path.Fill>
+					<LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.1666" SpreadMethod="Reflect">
+						<LinearGradientBrush.GradientStops>
+							<GradientStop Color="{uv:ColorVal Key=SlatEdge,Color=#FF000000}" Offset="0" />
+							<GradientStop Color="{uv:ColorVal Key=SlatEdge,Color=#FF000000}" Offset="0.15" />
+							<GradientStop Color="{uv:ColorVal Key=Slat,Color=#FFD2691E}" Offset="0.15" />
+							<GradientStop Color="{uv:ColorVal Key=Slat,Color=#FFD2691E}" Offset="0.25" />
+						</LinearGradientBrush.GradientStops>
+					</LinearGradientBrush>
+				</Path.Fill>
+			</Path>
+			<Path Data="M78,29L78,57 74,61 74,37 66,45 66,69 62,73 62,45z" Fill="{uv:ColorBrushVal Key=Side,Color=#FF8B4513}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+			<Path Data="M14,45L62,45 62,73 58,73 58,49 18,49 18,73 14,73z" Fill="{uv:ColorBrushVal Key=Front,Color=#FFA0522D}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" StrokeThickness="1" StrokeStartLineCap="Round" StrokeEndLineCap="Round" StrokeLineJoin="Round" />
+		</Canvas>
+	</uv:ResourceContent>
+</DataTemplate>

@@ -1,0 +1,7 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Ellipse Height="24" Width="24" Stroke="#202020" StrokeThickness="2" Canvas.Left="36" Canvas.Top="36" Fill="Black"></Ellipse>
+  </Canvas>
+</Page>

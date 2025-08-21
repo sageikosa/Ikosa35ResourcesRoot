@@ -1,0 +1,10 @@
+<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<uv:ResourceContent xmlns:uv="clr-namespace:Uzi.Visualize;assembly=Uzi.Visualize" ResourceDictionary="{DynamicResource dictStyles}">
+		<Canvas Background="{x:Null}" Width="96" Height="96" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+			<Path Data="M45,45L48,37 51,45 48,47z" Fill="{uv:ColorBrushVal Key=Material1,Color=#FFC0C0C0}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" />
+			<Path Data="M45,51L48,59 51,51 48,49z" Fill="{uv:ColorBrushVal Key=Material1,Color=#FFC0C0C0}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" />
+			<Path Data="M51,51L59,48 51,45 49,48z" Fill="{uv:ColorBrushVal Key=Material2,Color=#FFC0C0C0}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" />
+			<Path Data="M45,51L37,48 45,45 47,48z" Fill="{uv:ColorBrushVal Key=Material2,Color=#FFC0C0C0}" Stroke="{uv:ColorBrushVal Key=Outline,Color=#FF000000}" />
+		</Canvas>
+	</uv:ResourceContent>
+</DataTemplate>

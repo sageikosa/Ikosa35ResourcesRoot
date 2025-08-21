@@ -1,0 +1,21 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M28,12h48l-8,8h-48z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M20,20h48v64h-48z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M32,12v64l-8,8v-64z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    
+    <Path Stroke="Black" Fill="Chocolate" StrokeThickness="1" Data="M32,72h40l-8,8h-40z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Path Stroke="Black" Fill="Chocolate" StrokeThickness="1" Data="M32,40h40l-8,8h-40z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M72,12v64l-8,8v-64z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M76,12v64l-8,8v-64z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M28,12h48l-8,8h-48z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M20,20h48v4h-48z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+
+    <Path Stroke="Black" Fill="Brown" StrokeThickness="1" Data="M24,48h40v4h-40z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+
+    <Path Stroke="Black" Fill="SaddleBrown" StrokeThickness="1" Data="M20,80h48v4h-48z" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"></Path>
+ </Canvas>
+</Page>

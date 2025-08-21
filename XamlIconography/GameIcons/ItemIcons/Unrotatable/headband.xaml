@@ -1,0 +1,5 @@
+<DataTemplate xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<uv:ResourceContent xmlns:uv="clr-namespace:Uzi.Visualize;assembly=Uzi.Visualize" ResourceDictionary="{DynamicResource dictStyles}">
+<Canvas Background="{x:Null}" Width="96" Height="96" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"><Path Data="M12,48L12,52A72,56,0,0,1,84,52L84,48A72,48,0,0,0,12,48" Fill="#FFFAFAD2" Stroke="#FF000000" StrokeEndLineCap="Round" StrokeLineJoin="Round" /><Path Data="M12,48A32,8,0,0,0,12,52A72,72,0,0,0,84,52A32,8,0,0,0,84,48A72,60,0,0,1,12,48z" Fill="#FFFFD700" Stroke="#FF000000" StrokeEndLineCap="Round" StrokeLineJoin="Round" /></Canvas>
+</uv:ResourceContent>
+</DataTemplate>

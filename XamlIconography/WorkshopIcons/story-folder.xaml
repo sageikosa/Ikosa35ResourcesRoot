@@ -1,0 +1,22 @@
+<Page
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Canvas Height="96" Width="96" Background="Violet">
+    <Rectangle Width="32" Height="10" Stroke="Brown" Canvas.Left="6" Canvas.Top="16" Fill="LightGoldenrodYellow" StrokeLineJoin="Round" ></Rectangle>
+    <Rectangle Width="88" Height="64" Stroke="Brown" Canvas.Left="4" Canvas.Top="24" Fill="Yellow" StrokeLineJoin="Round" ></Rectangle>
+    <Canvas Canvas.Left="48" Canvas.Top="24">
+      <Canvas.LayoutTransform>
+        <TransformGroup>
+          <ScaleTransform ScaleX="0.5" ScaleY="0.5"/>
+        </TransformGroup>
+      </Canvas.LayoutTransform>
+      <Rectangle RadiusX="2" RadiusY="4" Stroke="Black" Fill="DarkCyan" Width="48" Height="64" Canvas.Left="24" Canvas.Top="20"></Rectangle>
+      <Path Stroke="Black" Fill="Brown" Data="M25,74 a5,4,0,0,0,0,8 " StrokeLineJoin="Round"/>
+      <Rectangle RadiusX="2" RadiusY="4" Stroke="Black" Fill="White" Width="48" Height="64" Canvas.Left="22" Canvas.Top="18"></Rectangle>
+      <Rectangle RadiusX="2" RadiusY="4" Stroke="Black" Fill="White" Width="48" Height="64" Canvas.Left="21" Canvas.Top="16"></Rectangle>
+      <Rectangle RadiusX="2" RadiusY="4" Stroke="Black" Fill="White" Width="48" Height="64" Canvas.Left="22" Canvas.Top="14"></Rectangle>
+      <Rectangle RadiusX="2" RadiusY="4" Stroke="Black" Fill="LightBlue" Width="48" Height="64" Canvas.Left="24" Canvas.Top="12"></Rectangle>
+      <Path Stroke="Black" Fill="Navy" Data="M25,14 a5,4,0,0,0,-5,4 v60 a5,4,0,0,1,5,-4" StrokeLineJoin="Round"/>
+    </Canvas>
+  </Canvas>
+</Page>
